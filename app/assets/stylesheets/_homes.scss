@@ -1,21 +1,77 @@
 .Header {
-  height: 800px;
+  height: 600px;
   width: 100%;
   background-color: rgb(186, 186, 231);
 
+  display: inline-block;  
   background-image:url("IMG_3513.jpg");
   background-color:rgba(171, 211, 233, 0.8);
   background-blend-mode:lighten;
+  background-repeat:  no-repeat;
   background-size: cover;
 
-  color: #ffffff;
 
-  &__logo {
-    text-align: center;
-    font-size: 36px;
-    line-height: 90px;
+  &__content {
+    display: flex;
+    width: 100%;
+    &--name{
+      text-align: center;
+      font-size: 36px;
+      padding: 20px 50px 50px 25px;
+    }
+    &--list{
+      width: 100%;
+      font-size: 20px;
+      padding: 50px 10px 50px 50px;
+      color: aliceblue;
+      text-align: right;
+    }
   }
+
+
 }
+
+
+.boby{
+  &__PHILOSOPHY{
+
+  }
+
+  &__GREETING{
+
+  }
+
+  &__WORKS{
+
+  }
+
+  &__RECRUIT{
+
+  }
+
+  &__ABOUT{
+
+  }
+
+  &__ACCESS{
+
+  }
+
+  &__CONTACT{
+
+  }
+
+}
+
+
+.footer{
+
+}
+
+
+
+
+
 
 // .Contents {
 //   height: calc(100vh - 90px - 20px);
