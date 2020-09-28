@@ -9,42 +9,82 @@
 
 .Body
   .Body__content--1 
-    %p PHILOSOPHY  
-    %p Renatus は、「生まれ変わる、再生する (reborn)」を意味する
+    %p.title PHILOSOPHY  
+    %p.content Renatus は、「生まれ変わる、再生する (reborn)」を意味する
+
+
   .Body__content--2 
-    %p GREETING
-    %p エンターテインメント × テクノロジーで、日本から世界中に「夢中」を届ける
+    %p.title GREETING
+    %p.content エンターテインメント × テクノロジーで、日本から世界中に「夢中」を届ける
     %p Renatus株式会社 代表取締役社長 DISK
+
+
   .Body__content--3 
-    %p WORKS
-    %p SES事業として、エンジニア未経験者の雇用の創出とその先に自分で物事を生み出すことができる今後の時代に必要な人財の排出をします。また、自社の目標としては、業界No1のエンジニア集団を作ります。
+    %p.title WORKS
+    %p.content SES事業として、エンジニア未経験者の雇用の創出とその先に自分で物事を生み出すことができる今後の時代に必要な人財の排出をします。
+    %p.content また、自社の目標としては、業界No1のエンジニア集団を作ります。
+    %ul.content-list
+      %dl.content 
+        %dt.name SES事業
+        %dd.detail coming soon
+      %dl.content 
+        %dt.name 自社開発
+        %dd.detail coming soon
+      %dl.content 
+        %dt.name コンサルティング
+        %dd.detail coming soon
+
+
   .Body__content--4 
-    %p RECRUIT
-    %p エンジニアを募集しております。
+    %p.title RECRUIT
+    %p.content 新しい挑戦に向け、創業メンバーを募集します！
+    %p.content エンジニアを募集しております。
+
+
   .Body__content--5 
-    %p ABOUT
-    %p 
+    %p.title COMPANY
+    %ul.content-list
+      %dl.content 
+        %dt.name 会社名 
+        %dd.detail Renatus 株式会社 
+      %dl.content
+        %dt.name 代表取締役 
+        %dd.detail DISK
+      %dl.content
+        %dt.name 所在地
+        %dd.detail 東京都○○区○-○-○○
+      %dl.content
+        %dt.name TEL
+        %dd.detail 070-○○○○-○○○○
+      %dl.content
+        %dt.name MAIL
+        %dd.detail disk@gmail.com
+      %dl.content
+        %dt.name 設立
+        %dd.detail 2020年○○月○○日
+      %dl.content
+        %dt.name 営業時間
+        %dd.detail 9:00~17:00(土、日、祝日は除く)
+      %dl.content
+        %dt.name 定休日
+        %dd.detail 土、日、祝日
+      %dl.content
+        %dt.name 取引金融機関
+        %dd.detail ○○○○銀行
+
+
   .Body__content--6
-    %p ACCESS
-    %p
+    %p.title ACCESS
+    %p.content
+
+
   .Body__content--7
-    %p CONTACT
-    %p
+    %p.title CONTACT
+    %p.content
 
 .footer
+  .footer__content
+    %p Renatus Co., Ltd
+    %p
+    %p
 
--# .Contents
--#   .Contents__message
--#     follow me!!
--#   = link_to "https://www.faceBook.com/", class: "Contents__Btn Contents__Btn--faceBook" do
--#     = icon('faB', 'faceBook-square',  class: "Contents__Btn--icon")
--#     %span<>
--#       FaceBook
--#   = link_to "https://twitter.com/", class: "Contents__Btn Contents__Btn--twitter" do
--#     = icon('faB', 'twitter', class: "Contents__Btn--icon")
--#     %span<>
--#       Twitter
--#   = link_to "https://www.instagram.com/", class: "Contents__Btn Contents__Btn--instagram" do
--#     = icon('faB', 'instagram', class: "Contents__Btn--icon")
--#     %span<>
--#       Instagram
